@@ -10,7 +10,7 @@ local bot = "" -- This is your Discord Webhook. You can read about those here: h
 local httpService = game:GetService("https://www.roblox.com/games/5087586534/Rosa-Mines")
 
 local neededRaiders =  --[[
-6.
+1.
 ]]
 local groupID =   -- 5872130.
 
