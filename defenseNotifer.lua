@@ -7,19 +7,17 @@
 
 local notified = false
 local bot = "" -- This is your Discord Webhook. You can read about those here: https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks
-local httpService = game:GetService("HttpService")
+local httpService = game:GetService("https://www.roblox.com/games/5087586534/Rosa-Mines")
 
 local neededRaiders =  --[[
-Put the needed raiders for the bot to ping here. 
-If the amount of raiders is greater than the needed, it'll send the message. 
-Typically, you want this 1 or 2 raiders lower than your official ammount.
+6.
 ]]
-local groupID =   -- It's your group id, pretty simple.
+local groupID =   -- 5872130.
 
 function postAnnouncement()
 	local Message = {
-        ['username'] = "put your username here", -- This will be the username of the bot. Typically, it'll be something like it'll be something like "Arvore Scout" or "WIJBot"
-        ['content'] = "put your message here", -- This is where the message goes. If you want to ping everyone, just do @everyone. 
+        ['username'] = "Rain's Notification Service", -- This will be the username of the bot. Typically, it'll be something like it'll be something like "Arvore Scout" or "WIJBot"
+        ['content'] = "@everyone Rosa Mines is being raided", -- This is where the message goes. If you want to ping everyone, just do @everyone. 
     --[[ If you want to create an embed, it'll take a bit of work on your part. However, i'll provide the basic resources for you.
 		["embeds"] = {{
 			["color"] = 2247400, -- This has to be a Hexidecimal. This best place to get these is https://convertingcolors.com/
