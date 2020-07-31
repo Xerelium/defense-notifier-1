@@ -12,7 +12,7 @@ local httpService = game:GetService("5087586534")
 local neededRaiders = 1.
 local groupID = 5872130.
 
-function postAnnouncement()
+function postAnnouncement(Testing)
 	local Message = {
         ['username'] = "Rain's Notification Service", -- This will be the username of the bot. Typically, it'll be something like it'll be something like "Arvore Scout" or "WIJBot"
         ['content'] = "@everyone Rosa Mines is being raided", -- This is where the message goes. If you want to ping everyone, just do @everyone. 
@@ -46,10 +46,10 @@ game.Players.PlayerAdded:connect(function(Player)
 			end
 		end
 	if amountRaiders>=neededRaiders and Player then
-  	  	wait(1)
+  	  	wait(5)
    			if not notified then
 				notified = true
-       				postAnnouncement()
+       				postAnnouncement(Come to rosa mines)
 			end
 		end
     end
