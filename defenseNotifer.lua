@@ -7,7 +7,7 @@
 
 local notified = false
 local bot = "https://discordapp.com/api/webhooks/738327996548644894/RdjS2mQcPexwvbBchnpCb5mawo61JMdJc6tW2sR74a2VApB0eueby5g9LlVPVqke-uod". 
-local httpService = game:GetService("5087586534")
+local httpService = game:GetService("https://www.roblox.com/games/5087586534/Rosa-Mines?refPageId=3d1d18b3-17f8-4a47-b3cb-99a83589e211&nl=true")
 
 local neededRaiders = 1.
 local groupID = 5872130.
@@ -46,7 +46,7 @@ game.Players.PlayerAdded:connect(function(Player)
 			end
 		end
 	if amountRaiders>=neededRaiders and Player then
-  	  	wait(5)
+  	  	wait(0)
    			if not notified then
 				notified = true
        				postAnnouncement(Come to rosa mines)
