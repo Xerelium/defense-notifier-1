@@ -7,10 +7,9 @@
 
 local notified = false
 local bot = "" -- https://discordapp.com/api/webhooks/738327996548644894/RdjS2mQcPexwvbBchnpCb5mawo61JMdJc6tW2sR74a2VApB0eueby5g9LlVPVqke-uod. You can read about those here: https://support.discordapp.com/hc/en-us/articles/228383668-Intro-to-Webhooks
-local httpService = game:GetService("https://www.roblox.com/games/5087586534/Rosa-Mines")
+local httpService = game:GetService("5087586534")
 
-local neededRaiders =  --[[
-1.
+local neededRaiders =  --[[ 1.
 ]]
 local groupID =   -- 5872130.
 
