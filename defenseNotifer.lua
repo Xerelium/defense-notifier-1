@@ -40,14 +40,14 @@ end
 -- Everything below this line is checking if the condition is met where the amount of raiders is greater than the needed amount.
 game.Players.PlayerAdded:connect(function(Player)
 	if not Player:IsInGroup(5872130) then
-		local amountRaiders=0;
+		local amountRaiders=1;
 		for _,v in pairs(game.Players:GetPlayers()) do
 			if not v:IsInGroup(5872130) then
 				amountRaiders=amountRaiders+1
 			end
 		end
 	if amountRaiders>=neededRaiders and Player then
-  	  	wait(5)
+  	  	wait(1)
    			if not notified then
 				notified = true
        				postAnnouncement()
