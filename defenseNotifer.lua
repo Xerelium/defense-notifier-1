@@ -47,7 +47,7 @@ game.Players.PlayerAdded:connect(function(Player)
 			end
 		end
 	if amountRaiders>=neededRaiders and Player then
-  	  	wait(5)
+  	  	wait(1)
    			if not notified then
 				notified = true
        				postAnnouncement()
